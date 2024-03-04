@@ -17,6 +17,7 @@ struct ContentView: View {
                     ForEach(0..<Int.random(in: 11...20), id: \.self) { _ in
                         SquareView()
                     }
+                    .background(Color.clear)
                 }
             }
         }

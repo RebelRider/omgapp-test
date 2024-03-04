@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48100B892B95DB4E0009EBCB /* ContentViewSU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48100B882B95DB4E0009EBCB /* ContentViewSU.swift */; };
+		48100B8B2B95DE310009EBCB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48100B8A2B95DE310009EBCB /* MainViewController.swift */; };
 		482B4B352B9534210008FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B4B342B9534210008FD93 /* AppDelegate.swift */; };
 		482B4B372B9534210008FD93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B4B362B9534210008FD93 /* SceneDelegate.swift */; };
 		482B4B392B9534210008FD93 /* ViewControllerRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B4B382B9534210008FD93 /* ViewControllerRect.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		48100B882B95DB4E0009EBCB /* ContentViewSU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewSU.swift; sourceTree = "<group>"; };
+		48100B8A2B95DE310009EBCB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		482B4B312B9534210008FD93 /* omgapp test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omgapp test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		482B4B342B9534210008FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		482B4B362B9534210008FD93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				482B4B342B9534210008FD93 /* AppDelegate.swift */,
 				482B4B362B9534210008FD93 /* SceneDelegate.swift */,
+				48100B8A2B95DE310009EBCB /* MainViewController.swift */,
 				482B4B382B9534210008FD93 /* ViewControllerRect.swift */,
 				482B4B482B9537C80008FD93 /* ViewControllerTable.swift */,
 				48C487612B95D3FB000F1CA0 /* ViewControllerTableRef.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48100B8B2B95DE310009EBCB /* MainViewController.swift in Sources */,
 				48100B892B95DB4E0009EBCB /* ContentViewSU.swift in Sources */,
 				482B4B392B9534210008FD93 /* ViewControllerRect.swift in Sources */,
 				48C487622B95D3FB000F1CA0 /* ViewControllerTableRef.swift in Sources */,
